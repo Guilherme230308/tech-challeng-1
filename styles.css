@@ -1,0 +1,76 @@
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        margin: 0;
+        padding: 0;
+    }
+
+    .header {
+        width: 100%;
+        height: 200px;
+        background-image: url('header.svg');
+        background-size: cover;
+        background-position: center;
+        color: #FFF;
+        font-weight: 700;
+    }
+
+    .title-container {
+        width: 50%;
+        margin: 0 auto;
+        padding: 8% 3% 0 0;
+    }
+
+    .title {
+        font-family: Archivo;
+    }
+
+    .subtitle {
+        font-family: Poppins;
+    }
+
+    .container {
+        width: 50%;
+        margin: 0 auto;
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .form-group {
+        margin-bottom: 20px;
+    }
+
+    label {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: bold;
+    }
+
+    input[type="text"],
+    textarea {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-sizing: border-box;
+    }
+
+    input[type="submit"] {
+        background-color: #DB1B1B;
+        color: #fff;
+        padding: 10px 0;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        width: 90%;
+        margin: 0 auto;
+        display: block;
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    input[type="submit"]:hover {
+        background-color: #b80f0f;
+    }
