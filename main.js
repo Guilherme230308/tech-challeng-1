@@ -25,6 +25,7 @@ function enviarContato(event) {
         if (!response.ok) {
             throw new Error('Problemas com a requisição');
         }
+        limparFormulario();
         return response.json();
     })
     .then(data => {
@@ -33,4 +34,12 @@ function enviarContato(event) {
     .catch(error => {
         console.error('Error:', error);
     });
+}
+
+function limparFormulario() {
+    document.getElementById('name1').value = '';
+    document.getElementById('name2').value = '';
+    document.getElementById('name3').value = '';
+    document.getElementById('name4').value = '';
+    document.getElementById('message').value = '';
 }
